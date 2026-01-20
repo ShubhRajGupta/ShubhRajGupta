@@ -12,4 +12,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 --> 
-![img](CAT.png) 
+<p align="center">
+  <img src="CAT.png" alt="img" width="300">
+</p>
