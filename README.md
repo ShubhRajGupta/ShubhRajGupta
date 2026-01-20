@@ -13,5 +13,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 --> 
 <p align="center">
-  <img src="CAT.png" alt="img" width="300">
+  <img src="CAT.png" width="500" height="500">
 </p>
