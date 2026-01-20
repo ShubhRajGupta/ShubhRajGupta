@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="CAT.png" width="1000" height="500">
+  <img src="CAT.png" width="1500" height="500">
 </p>
