@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShubhRajGupta — Researcher · Engineer · Builder</title>
+<meta name="description" content="Building intelligence systems for a better internet. Researcher-engineer crafting AI systems and internet intelligence infrastructure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scan-line"></div>
+<div class="grid-overlay"></div>
+
+<div class="container">
+
+<!-- ═══════════════ HEADER SECTION ═══════════════ -->
+<header class="profile-header">
+  <div class="header-left">
+    <div class="avatar-container">
+      <div class="avatar-ring"></div>
+      <img src="avatar.png" alt="Profile Avatar" class="avatar-img">
+      <span class="avatar-badge">I DO WHAT I WANT</span>
+    </div>
+    <div class="header-info">
+      <h1 class="profile-name">Shubh Raj Gupta</h1>
+      <p class="profile-tagline">> building intelligence systems<br>&nbsp;&nbsp;for a better internet_</p>
+      <div class="profile-meta">
+        <span class="meta-item"><span class="meta-icon">🌐</span> Internet Explorer</span>
+        <span class="meta-item"><span class="meta-icon">⚡</span> Researcher · Engineer · Builder</span>
+        <span class="meta-item"><span class="meta-icon">📍</span> Somewhere between curiosity and code</span>
+        <span class="meta-item"><span class="meta-icon">🔗</span> linktr.ee/shubhrajgupta</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-right">
+    <div class="terminal-widget">
+      <div class="terminal-bar"><span class="terminal-dot r"></span><span class="terminal-dot y"></span><span class="terminal-dot g"></span><span class="terminal-title">~/.profile</span></div>
+      <div class="terminal-body">
+        <p><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></p>
+        <p class="t-output">shubhrajgupta</p>
+        <p><span class="t-prompt">$</span> <span class="t-cmd">current_mission</span></p>
+        <p class="t-output">Find problems. Build systems.<br>Empower communities.</p>
+        <p><span class="t-prompt">$</span> <span class="t-cmd">status</span></p>
+        <p class="t-output">> Building · Learning · Shipping<br>> Always curious <span class="cursor-blink">█</span></p>
+      </div>
+    </div>
+    <div class="sys-stats">
+      <div class="stat-item"><span class="stat-label">SYSTEM UPTIME</span><span class="stat-value" id="uptime">21y 3m 12d</span></div>
+      <div class="stat-item"><span class="stat-label">COFFEE CONSUMED</span><span class="stat-value">∞</span></div>
+      <div class="stat-item"><span class="stat-label">BUGS SQUASHED</span><span class="stat-value"><span class="neon">🐛</span> 742+</span></div>
+      <div class="stat-item"><span class="stat-label">PROJECTS ACTIVE</span><span class="stat-value"><span class="neon">⚙</span> 6</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════ ACTION BUTTONS ═══════════════ -->
+<div class="action-buttons">
+  <button class="btn btn-outline" id="btn-follow"><span class="btn-icon">👤</span> Follow</button>
+  <button class="btn btn-outline btn-sponsor" id="btn-sponsor"><span class="btn-icon">❤️</span> Sponsor</button>
+  <button class="btn btn-outline" id="btn-star"><span class="btn-icon">⭐</span> Star</button>
+  <button class="btn btn-outline" id="btn-watch"><span class="btn-icon">👁</span> Watch</button>
+  <button class="btn btn-primary" id="btn-connect"><span class="btn-icon">🔗</span> Connect</button>
+  <button class="btn btn-hire" id="btn-hire"><span class="btn-icon">💼</span> Hire Me</button>
+</div>
+
+<!-- ═══════════════ ROW 1: STATUS / RADAR / HEATMAP ═══════════════ -->
+<div class="grid-row trio">
+
+  <!-- LIVE STATUS -->
+  <section class="card" id="live-status">
+    <h2 class="card-title"><span class="pulse-dot"></span> LIVE STATUS</h2>
+    <div class="status-list">
+      <div class="status-item">
+        <span class="status-icon">🔨</span>
+        <div><strong>Currently Building</strong><p>Community Intelligence Network</p></div>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">🔬</span>
+        <div><strong>Currently Researching</strong><p>Information Retrieval, LLM Agents, Knowledge Graphs</p></div>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">📖</span>
+        <div><strong>Currently Reading</strong><p>Build a Second Brain, Designing Data-Intensive Applications</p></div>
+      </div>
+      <div class="status-item">
+        <span class="status-icon">🤝</span>
+        <div><strong>Open To</strong><p>Research Collaborations · Open Source · Speaking · Hackathons</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPPORTUNITY RADAR -->
+  <section class="card" id="opportunity-radar">
+    <h2 class="card-title">TODAY'S SIGNALS</h2>
+    <div class="radar-container">
+      <canvas id="radarCanvas" width="200" height="200"></canvas>
+    </div>
+    <div class="signal-stats">
+      <div class="signal-row"><span class="sig-dot hackathon"></span><span class="sig-num">17</span> Hackathons</div>
+      <div class="signal-row"><span class="sig-dot grant"></span><span class="sig-num">4</span> Grants</div>
+      <div class="signal-row"><span class="sig-dot community"></span><span class="sig-num">23</span> Communities</div>
+      <div class="signal-row"><span class="sig-dot opportunity"></span><span class="sig-num">8</span> Opportunities</div>
+      <div class="signal-row"><span class="sig-dot paper"></span><span class="sig-num">12</span> Papers</div>
+    </div>
+    <p class="radar-footer">> Data collected from across the internet</p>
+  </section>
+
+  <!-- CONTRIBUTION HEATMAP -->
+  <section class="card" id="contributions">
+    <h2 class="card-title">CONTRIBUTION ACTIVITY</h2>
+    <div class="heatmap-labels">
+      <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span>
+    </div>
+    <div class="heatmap-wrapper">
+      <div class="heatmap-days"><span>Mon</span><span>Wed</span><span>Fri</span></div>
+      <div class="heatmap-grid" id="heatmapGrid"></div>
+    </div>
+    <p class="heatmap-motto">Consistency is compounding.</p>
+  </section>
+</div>
+
+<!-- ═══════════════ ROW 2: CONSTELLATION / CAT ═══════════════ -->
+<div class="grid-row duo">
+
+  <!-- PROJECT CONSTELLATION -->
+  <section class="card card-wide" id="constellation">
+    <h2 class="card-title">PROJECT CONSTELLATION</h2>
+    <canvas id="constellationCanvas"></canvas>
+    <p class="constellation-cmd">$ cat projects.json | visualize --mode galaxy</p>
+  </section>
+
+  <!-- CAT TERMINAL -->
+  <section class="card" id="cat-terminal">
+    <h2 class="card-title">> cat status</h2>
+    <div class="cat-photo-container">
+      <img src="hummer.png" alt="Hummer the Cat" class="cat-photo">
+    </div>
+    <div class="cat-terminal-body">
+      <pre class="cat-ascii">
+ /\_/\
+( o.o )
+ > ^ <
+/|   |\
+(_|   |_)</pre>
+      <div class="cat-stats">
+        <p><span class="t-prompt">Name:</span> Hummer 🐱</p>
+        <p><span class="t-prompt">Role:</span> Chief Distraction Officer</p>
+        <p><span class="t-prompt">Status:</span> Actively Monitoring</p>
+        <p><span class="t-prompt">Mood:</span> Judgemental</p>
+        <p><span class="t-prompt">Energy:</span> <span class="energy-bar"></span> 100% (after naps)</p>
+      </div>
+      <p class="t-prompt-line">$ _</p>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════ ROW 3: RESEARCH / FEED / TECH ═══════════════ -->
+<div class="grid-row trio">
+
+  <!-- RESEARCH LAB -->
+  <section class="card" id="research-lab">
+    <h2 class="card-title">RESEARCH LAB</h2>
+    <div class="research-section">
+      <h3 class="research-heading"><span class="r-icon">🧪</span> Active Experiments</h3>
+      <p>LLM Agent Framework for Community Intelligence</p>
+    </div>
+    <div class="research-section">
+      <h3 class="research-heading"><span class="r-icon">📄</span> Research Papers</h3>
+      <ul class="research-list">
+        <li>Internet Complaint Miner: A Large Scale Study</li>
+        <li>Opportunity Graph Construction using LLMs</li>
+      </ul>
+    </div>
+    <div class="research-section">
+      <h3 class="research-heading"><span class="r-icon fail">💀</span> Failed Experiments</h3>
+      <ul class="research-list faded">
+        <li>Quantum Blockchain (😅)</li>
+        <li>AI that can code my entire life (soon™)</li>
+      </ul>
+    </div>
+    <div class="research-section">
+      <h3 class="research-heading"><span class="r-icon">🔮</span> Future Directions</h3>
+      <ul class="research-list">
+        <li>Decentralized Intelligence Networks</li>
+        <li>Autonomous Research Agents</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- LIVE SIGNAL FEED -->
+  <section class="card" id="signal-feed">
+    <h2 class="card-title">RECENT ACTIVITY FEED</h2>
+    <div class="feed-list">
+      <div class="feed-item"><span class="feed-icon">🧪</span><div><p>New experiment: Agent Memory Compression</p><span class="feed-time">2h ago</span></div></div>
+      <div class="feed-item"><span class="feed-icon">🔍</span><div><p>Discovered 17 new hackathons</p><span class="feed-time">5h ago</span></div></div>
+      <div class="feed-item"><span class="feed-icon">🌐</span><div><p>Added 23 communities to the graph</p><span class="feed-time">8h ago</span></div></div>
+      <div class="feed-item"><span class="feed-icon">📝</span><div><p>Summarized a research paper</p><span class="feed-time">12h ago</span></div></div>
+      <div class="feed-item"><span class="feed-icon">🐛</span><div><p>Squashed a bug</p><span class="feed-time">yesterday</span></div></div>
+    </div>
+    <p class="feed-cmd">$ tail -f brain.log</p>
+  </section>
+
+  <!-- TECH STACK -->
+  <section class="card" id="tech-stack">
+    <h2 class="card-title">TECH STACK</h2>
+    <div class="tech-grid">
+      <div class="tech-item"><div class="tech-icon python">🐍</div><span>Python</span></div>
+      <div class="tech-item"><div class="tech-icon ts">TS</div><span>TypeScript</span></div>
+      <div class="tech-item"><div class="tech-icon go">Go</div><span>Go</span></div>
+      <div class="tech-item"><div class="tech-icon rust">🦀</div><span>Rust</span></div>
+      <div class="tech-item"><div class="tech-icon neo4j">◉</div><span>Neo4j</span></div>
+      <div class="tech-item"><div class="tech-icon pg">🐘</div><span>PostgreSQL</span></div>
+      <div class="tech-item"><div class="tech-icon docker">🐳</div><span>Docker</span></div>
+      <div class="tech-item"><div class="tech-icon aws">☁</div><span>AWS</span></div>
+      <div class="tech-item"><div class="tech-icon lc">🔗</div><span>LangChain</span></div>
+      <div class="tech-item"><div class="tech-icon kafka">⚡</div><span>Kafka</span></div>
+    </div>
+  </section>
+</div>
+
+<!-- ═══════════════ ROW 4: ACHIEVEMENTS / STATS / LANGS / ORGS ═══════════════ -->
+<div class="grid-row quad">
+
+  <!-- ACHIEVEMENTS -->
+  <section class="card" id="achievements">
+    <h2 class="card-title">ACHIEVEMENTS</h2>
+    <div class="badge-grid">
+      <div class="badge"><div class="badge-icon">🏗️</div><span>Full Stack</span></div>
+      <div class="badge"><div class="badge-icon">🎯</div><span>YOLO</span></div>
+      <div class="badge"><div class="badge-icon">⚡</div><span>Quickdraw</span></div>
+      <div class="badge"><div class="badge-icon">🧠</div><span>Galaxy Brain</span></div>
+      <div class="badge"><div class="badge-icon">🏔️</div><span>Arctic Code Vault</span></div>
+      <div class="badge"><div class="badge-icon">👥</div><span>Pair Extra­ordinaire</span></div>
+      <div class="badge"><div class="badge-icon">💻</div><span>Code Foster</span></div>
+      <div class="badge"><div class="badge-icon">✨</div><span>Open Sourcerer</span></div>
+    </div>
+  </section>
+
+  <!-- GITHUB STATS -->
+  <section class="card" id="github-stats">
+    <h2 class="card-title">GITHUB STATS</h2>
+    <div class="stats-grid">
+      <div class="stats-row"><span>Total Stars Earned:</span><span class="stat-val">1.2k+</span></div>
+      <div class="stats-row"><span>Total Commits:</span><span class="stat-val">3.7k+</span></div>
+      <div class="stats-row"><span>Total PRs:</span><span class="stat-val">285+</span></div>
+      <div class="stats-row"><span>Repositories:</span><span class="stat-val">64</span></div>
+      <div class="stats-row"><span>Contributions:</span><span class="stat-val">2024</span></div>
+    </div>
+    <div class="grade-badge">
+      <span class="grade">A+</span>
+      <span class="grade-label">Code Quality<br>(Probably)</span>
+    </div>
+  </section>
+
+  <!-- TOP LANGUAGES -->
+  <section class="card" id="top-langs">
+    <h2 class="card-title">TOP LANGUAGES</h2>
+    <div class="lang-list">
+      <div class="lang-row"><span class="lang-name">Python</span><div class="lang-bar"><div class="lang-fill" style="width:56%"></div></div><span class="lang-pct">56.4%</span></div>
+      <div class="lang-row"><span class="lang-name">TypeScript</span><div class="lang-bar"><div class="lang-fill ts" style="width:22%"></div></div><span class="lang-pct">21.7%</span></div>
+      <div class="lang-row"><span class="lang-name">Go</span><div class="lang-bar"><div class="lang-fill go" style="width:11%"></div></div><span class="lang-pct">11.3%</span></div>
+      <div class="lang-row"><span class="lang-name">Rust</span><div class="lang-bar"><div class="lang-fill rust" style="width:7%"></div></div><span class="lang-pct">6.8%</span></div>
+      <div class="lang-row"><span class="lang-name">Other</span><div class="lang-bar"><div class="lang-fill other" style="width:4%"></div></div><span class="lang-pct">3.8%</span></div>
+    </div>
+  </section>
+
+  <!-- ORGANIZATIONS -->
+  <section class="card" id="organizations">
+    <h2 class="card-title">ORGANIZATIONS</h2>
+    <div class="org-list">
+      <div class="org-item"><span class="org-icon">🌐</span> Internet Explorer</div>
+      <div class="org-item"><span class="org-icon">🔬</span> Open Source Lab</div>
+      <div class="org-item"><span class="org-icon">🤖</span> Numis AI</div>
+      <div class="org-item"><span class="org-icon">⛓</span> TerraChain Labs</div>
+    </div>
+    <a href="#" class="org-link">View all organizations →</a>
+  </section>
+</div>
+
+<!-- ═══════════════ QUOTE BANNER ═══════════════ -->
+<div class="quote-banner">
+  <p>🏗 The best way to predict the future is to build it. <span class="quote-tag">— in public.</span></p>
+</div>
+
+<!-- ═══════════════ ROW 5: VISITOR / GUESTBOOK / FUN ═══════════════ -->
+<div class="grid-row trio-bottom">
+
+  <!-- VISITOR TERMINAL -->
+  <section class="card" id="visitor-terminal">
+    <h2 class="card-title">VISITOR TERMINAL</h2>
+    <div class="visitor-term">
+      <p class="t-output">! welcome stranger!</p>
+      <p class="t-output">Leave a message for me in the guestbook? [Y/n]</p>
+      <p><span class="t-prompt">></span> <span class="t-cmd">Y</span></p>
+      <p class="t-output">Thank you! You are awesome 💚</p>
+      <p class="t-output">🚀🐱</p>
+    </div>
+  </section>
+
+  <!-- GUESTBOOK -->
+  <section class="card" id="guestbook">
+    <h2 class="card-title">GUESTBOOK</h2>
+    <div class="guestbook-entries">
+      <div class="gb-entry"><strong>@simonw</strong> Love your projects! 🚀<span class="feed-time">2d ago</span></div>
+      <div class="gb-entry"><strong>@addyosmani</strong> Inspiring work as always! 🌟<span class="feed-time">4d ago</span></div>
+      <div class="gb-entry"><strong>@thepracticaldev</strong> Your systems are next level 🔥<span class="feed-time">1w ago</span></div>
+    </div>
+    <div class="gb-footer">
+      <div class="qr-placeholder">[ QR ]</div>
+      <p>Scan to connect<br>on LinkedIn</p>
+    </div>
+    <a href="#" class="org-link">View all messages →</a>
+  </section>
+
+  <!-- FUN FACT -->
+  <section class="card" id="fun-fact">
+    <h2 class="card-title">FUN FACT</h2>
+    <div class="fun-content">
+      <pre class="cat-art">
+    /\_____/\
+   /  o   o  \
+  ( ==  ^  == )
+   )         (
+  (           )
+ ( (  )   (  ) )
+(__(__)___(__)__)</pre>
+      <div class="fun-text">
+        <p>I don't always<br>write code,<br>but when I do...</p>
+        <p class="fun-punchline">I commit.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+</div><!-- /.container -->
+
+<footer class="page-footer">
+  <p>Crafted with 💚 and ☕ by <strong>ShubhRajGupta</strong> · <span id="year">2026</span></p>
+  <p class="footer-sub">$ echo "Thanks for visiting!" && exit 0</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
