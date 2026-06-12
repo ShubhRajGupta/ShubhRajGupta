@@ -27,7 +27,7 @@
 
 ### About
 
-I'm a researcher-engineer building systems at the intersection of AI and internet intelligence. I find problems on the internet, build tools to understand them, and ship solutions that help communities.
+I'm a researcher-engineer building systems at the intersection of **AI** and **internet intelligence**. I find problems on the internet, build tools to understand them, and ship solutions that help communities.
 
 ```
 $ whoami → researcher-engineer
@@ -39,13 +39,13 @@ $ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
 
 ### What I'm Working On
 
-🔨 **Building** — Community Intelligence Network
+<img src="https://img.shields.io/badge/-Building-28a745?style=flat-square" /> **Community Intelligence Network**
 
-🔬 **Researching** — LLM Agents · Knowledge Graphs
+<img src="https://img.shields.io/badge/-Researching-6f42c1?style=flat-square" /> **LLM Agents · Knowledge Graphs**
 
-📖 **Reading** — *Designing Data-Intensive Apps*
+<img src="https://img.shields.io/badge/-Reading-0075ca?style=flat-square" /> *Designing Data-Intensive Apps*
 
-🤝 **Open to** — Collabs · OSS · Speaking
+<img src="https://img.shields.io/badge/-Open_to-d73a4a?style=flat-square" /> **Collabs · OSS · Speaking**
 
 </td>
 </tr>
@@ -61,14 +61,18 @@ $ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
 <tr>
 <td width="50%" valign="top">
 
-**🧠 [Community Intelligence Network](https://github.com/ShubhRajGupta)**
+<img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" />
+
+**[Community Intelligence Network](https://github.com/ShubhRajGupta)**
 <br>Central intelligence hub for internet communities
 <br>`Python` `Neo4j` `LLMs`
 
 </td>
 <td width="50%" valign="top">
 
-**🤖 [Numis AI](https://github.com/ShubhRajGupta)**
+<img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" />
+
+**[Numis AI](https://github.com/ShubhRajGupta)**
 <br>Knowledge extraction engine
 <br>`Python` `LangChain`
 
@@ -77,14 +81,18 @@ $ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
 <tr>
 <td width="50%" valign="top">
 
-**🕵️ [Internet Complaint Miner](https://github.com/ShubhRajGupta)**
+<img src="https://img.shields.io/badge/-Active-28a745?style=flat-square" />
+
+**[Internet Complaint Miner](https://github.com/ShubhRajGupta)**
 <br>Large-scale problem discovery from web data
 <br>`Python` `Kafka`
 
 </td>
 <td width="50%" valign="top">
 
-**📡 [Opportunity Graph](https://github.com/ShubhRajGupta)**
+<img src="https://img.shields.io/badge/-In_Progress-e4e669?style=flat-square&labelColor=e4e669" />
+
+**[Opportunity Graph](https://github.com/ShubhRajGupta)**
 <br>Maps hackathons, grants, and communities
 <br>`TypeScript` `Neo4j`
 
@@ -93,14 +101,18 @@ $ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
 <tr>
 <td width="50%" valign="top">
 
-**🌐 [Universal Event Harvester](https://github.com/ShubhRajGupta)**
+<img src="https://img.shields.io/badge/-Research-0075ca?style=flat-square" />
+
+**[Universal Event Harvester](https://github.com/ShubhRajGupta)**
 <br>Event intelligence collection system
 <br>`Go` `PostgreSQL`
 
 </td>
 <td width="50%" valign="top">
 
-**💻 [Digital Presence OS](https://github.com/ShubhRajGupta)**
+<img src="https://img.shields.io/badge/-Research-0075ca?style=flat-square" />
+
+**[Digital Presence OS](https://github.com/ShubhRajGupta)**
 <br>Personal digital identity system
 <br>`TypeScript` `AWS`
 
@@ -152,7 +164,7 @@ $ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
 <tr>
 <td width="40%" valign="top">
 
-### 🐱 Chief Distraction Officer
+### Chief Distraction Officer
 
 <img src="hummer.png" width="100%" alt="Hummer" />
 
@@ -166,23 +178,23 @@ $ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
 
 ### Research
 
-<details open><summary><b>Active Work</b></summary>
+<details open><summary><img src="https://img.shields.io/badge/-Active_Work-28a745?style=flat-square" /></summary>
 
-- LLM Agent Framework for Community Intelligence
-- Agent Memory Compression
-- Multi-source Intelligence Fusion
+- **LLM Agent Framework** for Community Intelligence
+- **Agent Memory Compression** techniques
+- **Multi-source Intelligence Fusion**
 </details>
 
-<details><summary><b>Papers</b></summary>
+<details><summary><img src="https://img.shields.io/badge/-Papers-0075ca?style=flat-square" /></summary>
 
-- Internet Complaint Miner: A Large Scale Study
-- Opportunity Graph Construction using LLMs
+- **Internet Complaint Miner:** A Large Scale Study
+- **Opportunity Graph Construction** using LLMs
 </details>
 
-<details><summary><b>Failed Experiments</b> (we learn from these)</summary>
+<details><summary><img src="https://img.shields.io/badge/-Failed_Experiments-d73a4a?style=flat-square" /> <sub>we learn from these</sub></summary>
 
-- Quantum Blockchain 😅
-- AI that can code my entire life *(soon™)*
+- Quantum Blockchain
+- AI that can code my entire life *(soon)*
 </details>
 
 </td>
@@ -194,5 +206,5 @@ $ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
 <p align="center"><i>"The best way to predict the future is to build it — in public."</i></p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/ShubhRajGupta"><img src="https://img.shields.io/badge/♥_Sponsor_my_work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" /></a>
+  <a href="https://github.com/sponsors/ShubhRajGupta"><img src="https://img.shields.io/badge/Sponsor_my_work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" /></a>
 </p>
