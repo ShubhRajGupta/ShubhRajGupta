@@ -1,7 +1,9 @@
-# These are supported funding model platforms
-# This file enables the native "♥ Sponsor" button on your GitHub profile & repos
-
+# GitHub Sponsors username
 github: ShubhRajGupta
-# ko_fi: shubhrajgupta
-# buy_me_a_coffee: shubhrajgupta
-# custom: ['https://your-link.com']
+
+# Third-party platforms (uncomment and fill in whichever you use)
+# patreon: your_patreon_username
+# open_collective: your_collective_slug
+# ko_fi: your_kofi_username
+# buy_me_a_coffee: your_bmac_username
+# custom: ['https://buymeacoffee.com/shubhrajgupta', 'https://paypal.me/shubhrajgupta']
