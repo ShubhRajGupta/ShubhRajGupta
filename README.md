@@ -1,4 +1,4 @@
-<table align="center">
+<table width="100%">
 <tr><td align="center">
 
 <img src="avatar.png" width="120" alt="avatar" />
