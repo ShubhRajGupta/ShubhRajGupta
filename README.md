@@ -1,5 +1,6 @@
 <table width="100%">
-<tr><td align="center">
+<tr>
+<td width="50%" align="center">
 
 <img src="avatar.png" width="120" alt="avatar" />
 
@@ -15,7 +16,28 @@
 
 <img src="https://komarev.com/ghpvc/?username=ShubhRajGupta&style=flat&color=grey&label=visitors" />
 
-</td></tr>
+</td>
+<td width="50%" valign="middle">
+
+```
+         /\_/\    ________________________
+        ( o.o )  < building intelligence  |
+         > ^ <   | systems for a better   |
+        /|   |\  | internet since forever |
+       (_|   |_) |________________________|
+
+  ┌──────────────────────────────┐
+  │ $ whoami                     │
+  │   researcher-engineer        │
+  │ $ uptime → 21y 3m            │
+  │ $ bugs_fixed → 742+          │
+  │ $ coffee → ∞                 │
+  │ $ status → shipping          │
+  └──────────────────────────────┘
+```
+
+</td>
+</tr>
 </table>
 
 ---
@@ -28,11 +50,6 @@
 ### About
 
 I'm a researcher-engineer building systems at the intersection of **AI** and **internet intelligence**. I find problems on the internet, build tools to understand them, and ship solutions that help communities.
-
-```
-$ whoami → researcher-engineer
-$ uptime → 21y 3m | bugs_fixed → 742+ | coffee → ∞
-```
 
 </td>
 <td width="40%" valign="top">
